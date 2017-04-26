@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/scale"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@mipmap/ic_instruction"
+                />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Instruction"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+            <Button
+                android:id="@+id/alpha"
+                android:layout_marginTop="50dp"
+                android:background="@mipmap/ic_aboutus"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="About us"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/translate"
+                android:background="@mipmap/ic_startgame"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Start game"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+            <Button
+                android:id="@+id/rotate"
+                android:layout_marginTop="50dp"
+                android:background="@mipmap/ic_reportbugs"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Report bugs"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+

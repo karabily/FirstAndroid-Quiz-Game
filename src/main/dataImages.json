@@ -1,0 +1,11 @@
+{
+  "GenericImageAutomate":[
+    {
+      "key":"1",
+      "ref":"R.drawable.image2"
+    },{
+      "key":"2",
+      "ref":"R.drawable.image3"
+    }
+  ]
+}
